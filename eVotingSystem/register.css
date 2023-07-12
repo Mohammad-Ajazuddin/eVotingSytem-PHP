@@ -1,0 +1,49 @@
+/* Voter form styles */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.form-container{
+    margin: 8rem auto;
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+}
+
+#voter-reg-form{
+    font-family:Lato,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: 3px 3px 5px 5px lightgrey;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap:15px;
+    font-style: italic;
+    font-weight: 400;
+}
+input{
+    padding: 3px;
+    margin-left: 4px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    outline: none;
+}
+#btn{
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#btn:hover{
+    background-color: green;
+    cursor: pointer;
+    border: 1px solid transparent;
+    color: white;
+}

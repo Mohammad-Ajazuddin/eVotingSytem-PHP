@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+:root{
+    font-family:Lato,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+.title,a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a,a:active,a:visited{
+    font: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 4rem;
+    background-image: linear-gradient(to left, #30cfd0 0%, #330867 100%);
+    box-shadow: 0 3px 3px grey;
+}
+
+ul{
+    width: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+li{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 4rem;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: darkorange;
+}
+
+.hero{
+    margin-top: 4rem;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+.hero h2{
+    padding: 2rem;
+    font-size: 64px;
+    font-weight:bolder;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 3px 3px 4px darkslategrey; 
+}
+
+.hero p{
+    text-align: center;
+    font-size: 32px;
+    font-weight:bolder;
+    font-style: italic;
+    text-shadow: 1px 1px 2px darkslategrey; 
+}
+
