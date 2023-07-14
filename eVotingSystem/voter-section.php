@@ -49,8 +49,8 @@
                    echo '<p> Currently there are No candidates to compete. </p>';
                 }
                 global $message; echo $message;
-                global $error; echo $error;
            echo '<input type = "submit" value="Submit Your Vote" id="btn" name="submit">';
+           echo '<input type = "reset" value="Reset" id="btn" name="reset">';
            echo '</fieldset>';
         echo '</form> ';?>
     </div>

@@ -6,7 +6,7 @@
         </div>
         <div class="navinks">
             <ul>
-                <a href=""><li>ADMIN LOGIN</li></a>
+                <a href="admin-login.php"><li>ADMIN LOGIN</li></a>
                 <a href="register.php"><li>REGISTER VOTER</li></a>
                 <a href="login.php"><li>VOTER LOGIN</li></a>
             </ul>
