@@ -35,6 +35,6 @@ id (primary key autoincrement)<br>
 admin_name<br>
 password<br>
 
-run in browser by<br>
+<h2>run in browser by</h2>
 localhost/evotingsystem/index.php<br>
 You can register, login, submit a vote, view your profile and change your password.<br>
